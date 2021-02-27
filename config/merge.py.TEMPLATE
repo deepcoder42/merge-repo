@@ -1,0 +1,58 @@
+# Git Merge configuration file
+# Classification (U)
+# Unclassified until filled.
+
+# Git Project name.
+# Example:  git_project="JAC-IDM"
+git_project="ProjectName"
+
+# Git Server Fully Qualified Domain Name.
+#   Not required for -a option.
+# Example:  git_server="github.com"
+git_server="GitServerFQDN"
+
+# Directory of where the merge will take place.
+# Example:  work_dir="/data/merge-repo/merge/work_dir"
+work_dir="/PATH_DIRECTORY/merge-repo/work_dir"
+
+# Directory where projects will be archived if encounter errors.
+# Example:  err_dir="/data/merge-repo/merge/error_dir"
+err_dir="/PATH_DIRECTORY/merge-repo/error_dir"
+
+# Directory where projects will be archived after a merge.
+# Example:  archive_dir="/data/merge-repo/merge/archive_dir"
+archive_dir="/PATH_DIRECTORY/merge-repo/archive_dir"
+
+# Directory where project items will be quarantined.
+# Example:  quar_dir="/data/merge-repo/merge/quarantine"
+quar_dir="/PATH_DIRECTORY/merge-repo/quarantine"
+
+# Email addresses for notification.
+#  If set to None, will not email out notifications.
+to_line="EMAIL_ADDRESS@EMAIL_DOMAIN"
+
+# Directory where log files will be placed.
+# Example:  log_file="/data/merge-repo/merge/logs/merge-repo.log"
+log_file="/PATH_DIRECTORY/merge-repo/logs/merge-repo.log"
+
+# Do not modify the settings below unless you know what you are doing.
+# Local Git Repository user name.
+name="gituser"
+
+# Local Git Repository user email address.
+email="gituser@domain.mail"
+
+# Remote branch on which the merge will take place on.
+branch="develop"
+
+# Name of temporary branch on local git repo.
+mod_branch="mod_release"
+
+# Option setting for dirty items:  revert|commit
+dirty="revert"
+
+# Option setting for untracked items:  add|remove
+untracked="remove"
+
+# Git Url Prefix
+prefix="git@"
